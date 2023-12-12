@@ -3,6 +3,7 @@ header {
     max-height: 140px;
     display: flex;
     justify-content: space-evenly;
+    vertical-align: middle;
     margin-top: 45px;
 }
 .logo {
@@ -18,6 +19,20 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+li {
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 15px;
+   
+}
+ul,a {
+    color: #000;
+    font-family: JejuMyeongjo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .search {
     width: 188px;
@@ -25,4 +40,8 @@ height: 21px;
 flex-shrink: 0;
 border-radius: 40px;
 background: rgba(217, 217, 217, 0.50);
+}
+.flag {
+    width: 40px;
+
 }
