@@ -1,47 +1,53 @@
 header {
-    max-width: 1800px;
-    max-height: 140px;
-    display: flex;
-    justify-content: space-evenly;
-    vertical-align: middle;
-    margin-top: 45px;
+  max-width: 1800px;
+  max-height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: top;
+  margin-top: 41px;
+  align-items: center;
 }
 .logo {
-    width: 78.442px;
-height: 63.674px;
-flex-shrink: 0;
+  width: 78.442px;
+  height: 63.674px;
+  flex-shrink: 0;
 }
 h2 {
-    color: #000;
-font-family: Kaisei Decol;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #000;
+  font-family: Kaisei Decol;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 li {
-    display: inline-block;
-    margin-right: 60px;
-    margin-top: 15px;
-   
+  display: inline-block;
+  margin-right: 60px;
+  margin-top: 15px;
 }
-ul,a {
-    color: #000;
-    font-family: JejuMyeongjo;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+ul,
+a {
+  color: #000;
+  font-family: JejuMyeongjo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .search {
-    width: 188px;
-height: 21px;
-flex-shrink: 0;
-border-radius: 40px;
-background: rgba(217, 217, 217, 0.50);
+  width: 188px;
+  height: 21px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: rgba(217, 217, 217, 0.5);
 }
 .flag {
-    width: 40px;
-
+  width: 40px;
+}
+/* section1 */
+.container {
+  max-width: 1800px;
+  max-height: 1000px;
+  margin: 0 auto;
 }
