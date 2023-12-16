@@ -104,3 +104,8 @@ footer {
   font-weight: 400;
   line-height: normal;
 }
+.logoebi {
+  margin-left: 1400px;
+  display: flex;
+  justify-content: space-around;
+}
