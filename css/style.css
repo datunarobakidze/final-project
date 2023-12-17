@@ -139,3 +139,30 @@ line-height: normal;
 .abtteam {
   margin-left: 630px;
 }
+.gundi {
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Players {
+  width: 324px;
+height: 340px;
+flex-shrink: 0;
+border: 3px black solid;
+align-items: center;
+}
+.toko {
+  margin: 0 auto;
+  background-image: url("../images/toko.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+  
+}
+h3,h4  {
+  margin-left: 100px;
+  &:hover {
+    color: red;
+  }
+}
