@@ -76,22 +76,23 @@ a {
 }
 /* footer */
 footer {
-  height: 430px;
-
+  height: 450px;
   flex-shrink: 0;
   background: #e4e4e4;
 }
 .f1 {
   display: flex;
   margin-left: 102px;
+  padding-top:35px ;
+  
 }
 .f2 {
   display: flex;
   flex-direction: column;
-
   margin-left: 110px;
   margin-top: 50px;
 }
+
 .f3 {
   margin-top: 200px;
   margin-left: 60px;
@@ -148,7 +149,7 @@ line-height: normal;
   width: 324px;
 height: 340px;
 flex-shrink: 0;
-border: 3px black solid;
+border: 1px black solid;
 align-items: center;
 }
 .toko {
