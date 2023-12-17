@@ -7,6 +7,9 @@ header {
   margin-top: 41px;
   align-items: center;
 }
+.activepage {
+  color: cornflowerblue;
+}
 .logo {
   width: 78.442px;
   height: 63.674px;
@@ -108,4 +111,31 @@ footer {
   margin-left: 1400px;
   display: flex;
   justify-content: space-around;
+}
+/* team html */
+.b2 {
+  height: 600px;
+  background-image: url("../images/gnt.jpg");
+
+  background-position: center;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/gnt.jpg") lightgray 50% / cover no-repeat;
+}
+h1{
+  color: #000;
+font-family: Kaisei Decol;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+&:hover {
+  color: red;
+}
+}
+.abtteam {
+  margin-left: 630px;
 }
