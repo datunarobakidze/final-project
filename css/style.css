@@ -161,8 +161,102 @@ align-items: center;
   
 }
 h3,h4  {
+ 
   margin-left: 100px;
   &:hover {
     color: red;
   }
+  
+}
+h3::first-letter {
+  color: red
+}
+.rati {
+  margin: 0 auto;
+  background-image: url("../images/rati.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.goga {
+  margin: 0 auto;
+  background-image: url("../images/goga.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.shermo {
+  margin: 0 auto;
+  background-image: url("../images/shermo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.thad {
+  margin: 0 auto;
+  background-image: url("../images/thad.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.mamu {
+margin: 0 auto;
+background-image: url("../images/mamu.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+width:280px;
+height: 280px;
+}
+.bu {
+  margin: 0 auto;
+background-image: url("../images/bu.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+width:280px;
+height: 280px;
+}
+.kakha {
+  margin: 0 auto;
+  background-image: url("../images/kakha.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.duda {
+  margin: 0 auto;
+  background-image: url("../images/duda.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.misha {
+  margin: 0 auto;
+  background-image: url("../images/misha.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.luka {
+  margin: 0 auto;
+  background-image: url("../images/luka.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
+}
+.turdzila {
+  margin-left:  20px; 
+  margin-top: 5px;
+  background-image: url("../images/turdzila.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:280px;
+  height: 280px;
 }
