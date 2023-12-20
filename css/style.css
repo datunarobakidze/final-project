@@ -37,6 +37,7 @@ a {
   line-height: normal;
 }
 
+
 .search {
   width: 188px;
   height: 21px;
@@ -83,8 +84,7 @@ footer {
 .f1 {
   display: flex;
   margin-left: 102px;
-  padding-top:35px ;
-  
+  padding-top: 35px;
 }
 .f2 {
   display: flex;
@@ -126,16 +126,16 @@ footer {
     ),
     url("../images/gnt.jpg") lightgray 50% / cover no-repeat;
 }
-h1{
+h1 {
   color: #000;
-font-family: Kaisei Decol;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-&:hover {
-  color: red;
-}
+  font-family: Kaisei Decol;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  &:hover {
+    color: red;
+  }
 }
 .abtteam {
   margin-left: 630px;
@@ -147,37 +147,35 @@ line-height: normal;
 }
 .Players {
   width: 324px;
-height: 340px;
-flex-shrink: 0;
-border: 1px black solid;
-align-items: center;
+  height: 340px;
+  flex-shrink: 0;
+  border: 1px black solid;
+  align-items: center;
 }
 .toko {
   margin: 0 auto;
   background-image: url("../images/toko.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
-  
 }
-h3,h4  {
- 
+h3,
+h4 {
   margin-left: 100px;
   &:hover {
     color: red;
   }
-  
 }
 h3::first-letter {
-  color: red
+  color: red;
 }
 .rati {
   margin: 0 auto;
   background-image: url("../images/rati.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .goga {
@@ -185,7 +183,7 @@ h3::first-letter {
   background-image: url("../images/goga.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .shermo {
@@ -193,7 +191,7 @@ h3::first-letter {
   background-image: url("../images/shermo.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .thad {
@@ -201,31 +199,31 @@ h3::first-letter {
   background-image: url("../images/thad.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .mamu {
-margin: 0 auto;
-background-image: url("../images/mamu.jpg");
-background-repeat: no-repeat;
-background-size: contain;
-width:280px;
-height: 280px;
+  margin: 0 auto;
+  background-image: url("../images/mamu.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 280px;
+  height: 280px;
 }
 .bu {
   margin: 0 auto;
-background-image: url("../images/bu.jpg");
-background-repeat: no-repeat;
-background-size: contain;
-width:280px;
-height: 280px;
+  background-image: url("../images/bu.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 280px;
+  height: 280px;
 }
 .kakha {
   margin: 0 auto;
   background-image: url("../images/kakha.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .duda {
@@ -233,7 +231,7 @@ height: 280px;
   background-image: url("../images/duda.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .misha {
@@ -241,7 +239,7 @@ height: 280px;
   background-image: url("../images/misha.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .luka {
@@ -249,15 +247,44 @@ height: 280px;
   background-image: url("../images/zurous.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width:280px;
+  width: 280px;
   height: 280px;
 }
 .turdzila {
-  margin-left:  20px; 
+  margin-left: 20px;
   margin-top: 5px;
   background-image: url("../images/tolika.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width:280px;
+  width: 280px;
   height: 280px;
+}
+
+/* animation */
+.animation {
+  height: 1000px;
+  background-image: url("../images/court.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ball {
+  width: 50px;
+  height: 80px;
+  object-fit: contain;
+  transform: translate(800px, 450px);
+  animation: img 0.5s;
+}
+.basketball {
+  position: absolute;
+  animation: bounce 3s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50% {
+    top: 350px;
+  }
 }
