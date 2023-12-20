@@ -246,18 +246,18 @@ height: 280px;
 }
 .luka {
   margin: 0 auto;
-  background-image: url("../images/luka.jpg");
+  background-image: url("../images/zurous.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width:280px;
   height: 280px;
 }
 .turdzila {
   margin-left:  20px; 
   margin-top: 5px;
-  background-image: url("../images/turdzila.jpg");
+  background-image: url("../images/tolika.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width:280px;
   height: 280px;
 }
