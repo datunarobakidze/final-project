@@ -58,7 +58,7 @@ a {
   width: 40px;
 }
 /* section1 */
-.container {
+.container-sm {
   max-width: 1800px;
   width: 100%;
   max-height: 1000px;
@@ -139,6 +139,7 @@ h1 {
 }
 .abtteam {
   margin-left: 630px;
+  width: 100%;
 }
 .gundi {
   margin-left: 200px;
@@ -286,5 +287,12 @@ h3::first-letter {
 
   50% {
     top: 350px;
+  }
+}
+/* responsive */
+@media (max-width:880px) {
+  .abtteam {
+    width: 70%;
+    margin-left: 400px;
   }
 }
