@@ -37,7 +37,6 @@ a {
   line-height: normal;
 }
 
-
 .search {
   width: 188px;
   height: 21px;
@@ -77,9 +76,17 @@ a {
 }
 /* footer */
 footer {
-  height: 450px;
+  height: 600px;
   flex-shrink: 0;
   background: #e4e4e4;
+}
+.logotbc {
+  width: 100px;
+  margin-left: 900px;
+}
+.tbc{
+  margin-left: 1400px;
+  
 }
 .f1 {
   display: flex;
@@ -290,7 +297,7 @@ h3::first-letter {
   }
 }
 /* responsive */
-@media (max-width:880px) {
+@media (max-width: 880px) {
   .abtteam {
     width: 70%;
     margin-left: 400px;
