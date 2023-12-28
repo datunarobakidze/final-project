@@ -76,7 +76,6 @@ a {
 }
 /* footer */
 footer {
-  margin-top: 40%;
   height: 600px;
   flex-shrink: 0;
   background: #e4e4e4;
@@ -85,9 +84,8 @@ footer {
   width: 100px;
   margin-left: 900px;
 }
-.tbc{
+.tbc {
   margin-left: 1400px;
-  
 }
 .f1 {
   display: flex;
@@ -267,6 +265,12 @@ h3::first-letter {
   background-size: cover;
   width: 280px;
   height: 280px;
+}
+.teamfooter {
+  margin-top: 40%;
+  height: 600px;
+  flex-shrink: 0;
+  background: #e4e4e4;
 }
 
 /* animation */
