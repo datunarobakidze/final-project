@@ -76,6 +76,7 @@ a {
 }
 /* footer */
 footer {
+  margin-top: 40%;
   height: 600px;
   flex-shrink: 0;
   background: #e4e4e4;
